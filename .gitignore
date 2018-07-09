@@ -1,0 +1,9 @@
+venv
+init
+.idea
+cloudops.iml
+*/.serverless
+*.pyc
+keys_for_images
+node_modules/*
+/.env
