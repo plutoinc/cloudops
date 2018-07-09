@@ -1,0 +1,17 @@
+boto3==1.4.6
+docutils==0.13.1
+elasticsearch==5.2.0
+elasticsearch-dsl==5.1.0
+futures==3.0.5
+jmespath==0.9.1
+python-dateutil==2.6.0
+python-hmac-auth==0.4
+requests==2.13.0
+s3transfer==0.1.10
+six==1.10.0
+urllib3==1.20
+mock==2.0.0
+netaddr==0.7.19
+pytz>=2017.02
+pptable==0.0.3
+ratelimit==2.2.0
