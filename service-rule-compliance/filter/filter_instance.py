@@ -26,13 +26,13 @@ def _terminated(instance):
 
 
 def tag_policy_not_satisfied(instance):
-    if not _running(instance):
-        log.debug("[%s] is not running" % instance.instance_id)
-        return False
-
-    if not _launched_in_60min(instance):
-        log.debug("[%s] out of range of launch time" % instance.instance_id)
-        return False
+    # if not _running(instance):
+    #     log.debug("[%s] is not running" % instance.instance_id)
+    #     return False
+    #
+    # if not _launched_in_60min(instance):
+    #     log.debug("[%s] out of range of launch time" % instance.instance_id)
+    #     return False
 
     id = instance.instance_id
     tags = instance.tags or []
